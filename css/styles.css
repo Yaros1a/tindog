@@ -1,0 +1,176 @@
+body {
+   font-family: "Montserrat", serif;
+   text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+}
+
+p {
+   color: gray;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+   margin: 10px;
+}
+
+/* section */
+
+.colored-section {
+   background-color: #ff4c68;
+   color: white;
+}
+
+.white-section{
+   background-color: white;
+}
+
+/* Title section */
+
+#title .container-fluid{
+   padding: 3% 7% 10%;
+   text-align: left;
+}
+
+.big-heading {
+   font-size: 3.5rem;
+   line-height: 1.5;
+}
+
+.navbar {
+   margin-bottom: 50px;
+}
+
+.navbar-brand {
+   font-size: 30px;
+   font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+
+.image {
+   position: relative;
+}
+
+.container-fluid {
+   padding: 7% 15%;
+}
+
+.nav-link {
+   font-size: 18px;
+   margin: 0 10px;
+}
+
+
+/* Download-Buttons */
+.button-download {
+   margin: 5% 3% 5% 0;
+}
+
+
+/* Title image */
+.title-image {
+   position: absolute;
+   width: 50%;
+   transform: rotate(25deg);
+   right: 23%;
+}
+
+
+/* Features section */
+#features {
+   position: relative;
+}
+
+.feature-heading{
+   font-size: 1.5rem;
+}
+
+.feature-box {
+   padding: 5%;
+}
+
+.icon {
+   color: #f1614e;
+   margin-bottom: 1rem;
+}
+
+.icon:hover {
+   color: #ff4c68
+}
+
+/* Testimonial section */
+#testimonials {
+   background-color: #f1614e;
+}
+
+.testimonial-heading{
+   font-size: 3rem;
+   line-height: 1.5;
+}
+
+.testimonial-image {
+   border-radius: 50%;
+   width: 20%;
+   margin: 20px;
+}
+
+#press {
+   background-color: #f1614e;
+   padding-bottom: 3%;
+
+}
+
+.press-img {
+   width: 15%;
+   margin: 20px;
+}
+
+
+/* pricing section */
+
+#pricing {
+   padding: 100px;
+}
+
+.pricing-column {
+   padding: 3% 2%;
+}
+
+.pricing-heading{
+   font-size: 2.5rem;
+   line-height: 1.5;
+}
+
+/* CTA Section */
+
+/* Footer section */
+
+#footer {
+   background-color: #ffff;
+   padding: 3% 0 1%;
+}
+
+.footer-icon:hover {
+   color: #ff4c68;
+}
+
+#footer p {
+   margin-top: 10px;
+}
+
+
+@media(max-width: 1005px) {
+   #title .container-fluid {
+      text-align: center;
+   }
+
+   .title-image {
+      position: static;
+      transform: rotate(0);
+      width: 40%;
+   }
+}
